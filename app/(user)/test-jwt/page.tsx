@@ -29,7 +29,7 @@ const TestJWTPage = () => {
     }
     const handleUpdate = async () => {
         const body = {
-            name: "Product Update By kdeyhenessey"
+            name: "Product Update"
         }
         const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}products/${507}/`,{
             method: "PATCH",
